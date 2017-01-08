@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.blue {
+    background: #174C50;
+    color: #fff;
+}
+
+.banner {
+    display: flex;
+    height: 100%;
+}
+.banner-splash {
+    color: white;
+    background: #000 url("Cape-Town01.jpg") bottom left;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.banner-centered {
+    align-items:  center;
+    justify-content: center;
+}
+
+.banner_box {
+    margin: 2rem;
+}
+.banner_box-br {
+    font-size: 2rem;
+}
