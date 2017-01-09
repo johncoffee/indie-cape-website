@@ -1,3 +1,4 @@
+/* tags */
 html, body {
     height: 100%;
 }
@@ -7,19 +8,26 @@ body {
     margin: 0;
 }
 
+a {color: inherit}
+
+/* blocks */
 .question {
     color: #888;
 }
 
 .blue {
-    background: #174C50;
+    background: #1f3d4c;
     color: #fff;
 }
-
 .orange {
     background: #D8D5BE;
-    color: #1F4B30;
+    color: #234c2e;
 }
+.light-grey {
+    background: #f2fdf1;
+    color: #121219;
+}
+
 
 .banner {
     display: flex;
@@ -27,7 +35,7 @@ body {
 }
 .banner-splash {
     color: white;
-    background: #000 url("Cape-Town01.jpg") bottom left;
+    background: #000 url("Cape-Town01.jpg") 10% 80%;
     background-size: cover;
     justify-content: space-between;
     align-items: flex-end;
@@ -40,6 +48,13 @@ body {
 
 .banner_box {
     margin: 2rem;
+    margin-bottom: 3rem;
+}
+.banner_box:first-child {
+    margin-left: 3rem;
+}
+.banner_box:last-child {
+    margin-right: 3rem;
 }
 .banner_box-br {
     font-size: 2rem;
