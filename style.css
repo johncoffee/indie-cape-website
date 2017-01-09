@@ -7,9 +7,18 @@ body {
     margin: 0;
 }
 
+.question {
+    color: #888;
+}
+
 .blue {
     background: #174C50;
     color: #fff;
+}
+
+.orange {
+    background: #D8D5BE;
+    color: #1F4B30;
 }
 
 .banner {
