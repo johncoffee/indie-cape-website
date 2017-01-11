@@ -40,6 +40,16 @@ a {color: inherit}
     justify-content: space-between;
     align-items: flex-end;
 }
+.banner-half {
+    height: 50%;
+}
+.banner-footer {
+    color: white;
+    background: #000 url("ct2.jpg") 60% 0%;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 
 .banner-centered {
     align-items:  center;
