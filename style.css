@@ -16,22 +16,21 @@ a {
 a:hover {text-decoration: underline}
 
 /* blocks */
-.question {
-    color: #888;
-}
-
 .blue {
     background: #1f3d4c;
     color: #fff;
 }
+.blue a {color: #94daed;}
 .orange {
     background: #D8D5BE;
     color: #234c2e;
 }
+.orange a {color: #9c5800}
 .light-grey {
     background: #f2fdf1;
     color: #121219;
 }
+.light-grey a {color: #0f7b10}
 
 
 .banner {
